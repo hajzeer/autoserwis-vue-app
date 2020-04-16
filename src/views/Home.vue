@@ -26,15 +26,23 @@ export default {
 <style lang="scss" scoped>
   .home {
     width: 100%;
+    height: 100vh;
     z-index: -99;
   }
 
   .service {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 250px;
+    margin-top: -20px;
 
     .service__name {
       color: whitesmoke;
@@ -49,20 +57,20 @@ export default {
 
   @media(min-width: 768px) {
     .service {
-      margin-top: 250px;
-
-      .service__name {
-        font-size: 25px;
+      margin-top: -20px;
+        .service__name {
+          font-size: 25px;
+          letter-spacing: 1px;
+        }
       }
     }
-  }
 
   @media(min-width: 1024px) {
     .service {
-      margin-top: 250px;
-
+      margin-top: -20px;
       .service__name {
         font-size: 35px;
+        letter-spacing: 2px;
       }
     }
   }

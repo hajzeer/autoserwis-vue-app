@@ -37,4 +37,10 @@ export default {
             height: 100vh;
         }
     }
+
+    @media(min-width: 1024px) {
+        .hero__image {
+            background-position: 50% 50%;
+        }
+    }
 </style>
