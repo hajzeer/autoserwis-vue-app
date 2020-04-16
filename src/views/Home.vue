@@ -34,7 +34,7 @@ export default {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 50%;
+    margin-top: 250px;
 
     .service__name {
       color: whitesmoke;
@@ -43,6 +43,27 @@ export default {
       font-size: 15px;
       text-decoration-line: underline;
       letter-spacing: .5px;
+    }
+
+  }
+
+  @media(min-width: 768px) {
+    .service {
+      margin-top: 250px;
+
+      .service__name {
+        font-size: 25px;
+      }
+    }
+  }
+
+  @media(min-width: 1024px) {
+    .service {
+      margin-top: 250px;
+
+      .service__name {
+        font-size: 35px;
+      }
     }
   }
 </style>

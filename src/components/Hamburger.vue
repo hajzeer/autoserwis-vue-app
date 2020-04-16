@@ -88,7 +88,15 @@ export default {
         transition: transform .2s .1s ease-in-out;
     }
 }
-
+@media(min-width: 1024px) {
+  .hamburger__box {
+    width: 30px;
+    height: 20px;
+  }
+  .hamburger__inner {
+    height: 2px;
+  }
+}
 
 .active .hamburger__inner {
   background-color: transparent;

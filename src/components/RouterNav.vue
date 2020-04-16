@@ -55,6 +55,13 @@ export default {
         flex-direction: column;
   }
 
+  @media(min-width: 1024px) {
+      .nav__inner {
+          flex-direction: row;
+          justify-content: space-around;
+      }
+  }
+
   .path {
       margin-bottom: 25px;
       cursor: pointer;

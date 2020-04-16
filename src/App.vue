@@ -59,6 +59,15 @@ export default {
       letter-spacing: 2px;
     }
   }
+  @media(min-width: 1024px) {
+    .company__name {
+      font-size: 30px;
+
+      span {
+        font-size: 25px;
+      }
+    }
+  }
 
   .navbar {
     position: absolute;
