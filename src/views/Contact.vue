@@ -1,17 +1,23 @@
 <template>
-  <div class="about">
+  <div class="contact">
     Work in progress
   </div>
 </template>
 
 <script>
-export default {
 
+
+export default {
+  name: 'Contact',
+  components: {
+
+  },
 };
 </script>
 
 <style lang="scss" scoped>
-.about {
+.contact {
   margin-top: 50%;
 }
+
 </style>
