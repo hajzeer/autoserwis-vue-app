@@ -57,6 +57,7 @@ export default {
     span {
       font-size: 15px;
       letter-spacing: 2px;
+      font-weight: 500;
     }
   }
   @media(min-width: 1024px) {

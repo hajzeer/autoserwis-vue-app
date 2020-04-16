@@ -6,7 +6,7 @@
       <p class="service__name">LAKIERNICTWO</p>
       <p class="service__name">WYNIANA SZYB</p>
       <p class="service__name">NAPRAWA ZDERZAKÓW</p>
-      <p class="service__name">NAPRAWA I KONSETWACJA PODWOZI</p>
+      <p class="service__name">NAPRAWA I KONSERWACJA PODWOZI</p>
     </div>
   </div>
 </template>
@@ -43,12 +43,14 @@ export default {
     align-items: center;
     flex-direction: column;
     margin-top: -20px;
+    text-align: center;
 
     .service__name {
+      width: 300px;
       color: whitesmoke;
       font-family: 'Fira Sans', sans-serif;
       padding: 0;
-      font-size: 15px;
+      font-size: 1em;
       text-decoration-line: underline;
       letter-spacing: .5px;
     }
@@ -59,7 +61,8 @@ export default {
     .service {
       margin-top: -20px;
         .service__name {
-          font-size: 25px;
+          width: 100%;
+          font-size: 1.5em;
           letter-spacing: 1px;
         }
       }
@@ -69,7 +72,7 @@ export default {
     .service {
       margin-top: -20px;
       .service__name {
-        font-size: 35px;
+        font-size: 2em;
         letter-spacing: 2px;
       }
     }
