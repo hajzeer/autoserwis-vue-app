@@ -70,7 +70,7 @@ export default {
   }
 
   .navbar {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: auto;
     display: flex;
