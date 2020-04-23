@@ -1,7 +1,7 @@
 <template>
   <div class="contact">
     <HeroImageContact />
-  <ul>
+  <ul class="contact__list">
     <li>Autoserwis Daniel Filocha</li>
     <li>ul. Gliwicka 234 budynek 4 Katowice</li>
     <li>505 063 892</li>
@@ -44,8 +44,8 @@ body {
   text-align: center;
 }
 
-ul {
-  width: 300px;
+.contact__list {
+  width: 400px;
   color: whitesmoke;
   font-family: 'Fira Sans', sans-serif;
   padding: 0;
@@ -56,8 +56,29 @@ ul {
   padding: 0;
 
   li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
+
+ @media(min-width: 768px) {
+    .contact__list {
+      margin-top: -20px;
+        li {
+          width: 100%;
+          font-size: 1.5em;
+          letter-spacing: 1px;
+        }
+      }
+    }
+
+  @media(min-width: 1024px) {
+    .contact__list {
+      margin-top: -20px;
+      li {
+        font-size: 2em;
+        letter-spacing: 2px;
+      }
+    }
+  }
 
 </style>
