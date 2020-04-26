@@ -11,7 +11,7 @@
       </a>
     </li>
     <li>
-      <a href="505 063 892">
+      <a href="tel:+48-505-063-892">
         505 063 892
         <br/>
         (Kliknij aby dzwonić)
