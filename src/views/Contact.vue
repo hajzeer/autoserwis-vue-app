@@ -2,22 +2,28 @@
   <div class="contact">
     <HeroImageContact />
   <ul class="contact__list">
-    <li>Autoserwis Daniel Filocha</li>
+    <li><router-link to="/">Autoserwis Daniel Filocha</router-link></li>
     <li>
       <a href="https://goo.gl/maps/NJXbx6hdg1g4heXy7">
         ul. Gliwicka 234 budynek 4 Katowice
         <br/>
-        (kliknij aby prowadzić)
+        (Prowadź do Nas)
       </a>
     </li>
     <li>
       <a href="tel:+48-505-063-892">
         505 063 892
         <br/>
-        (Kliknij aby dzwonić)
+        (Zadzwoń do Nas)
       </a>
     </li>
-    <li>autoserwis234@wp.pl</li>
+    <li>
+      <a href="mailto: autoserwis234@wp.pl">
+        autoserwis234@wp.pl
+        <br/>
+        (Napisz do nas)
+      </a>
+    </li>
   </ul>
   </div>
 </template>
@@ -92,7 +98,7 @@ body {
     .contact__list {
       margin-top: -20px;
       li {
-        font-size: 2em;
+        font-size: 1.5em;
         letter-spacing: 2px;
       }
     }
