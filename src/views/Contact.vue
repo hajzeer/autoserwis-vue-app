@@ -21,7 +21,7 @@
       <a href="mailto: autoserwis234@wp.pl">
         autoserwis234@wp.pl
         <br/>
-        (Napisz do nas)
+        (Napisz do Nas)
       </a>
     </li>
   </ul>
