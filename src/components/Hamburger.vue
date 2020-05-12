@@ -52,7 +52,7 @@ export default {
     cursor: pointer;
     background-color: transparent;
     border: 0;
-    margin: 0;
+    margin-right: 0;
 }
 
 .hamburger__box {

@@ -45,8 +45,8 @@ export default {
     font-family: 'Fira Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    padding: 0;
-    margin-left: 10px;
+    padding: 10px;
+    margin-left: 0;
     cursor: pointer;
     border: none;
     color: black;

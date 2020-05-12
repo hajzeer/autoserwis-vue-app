@@ -42,18 +42,12 @@ export default {
 
 <style lang="scss" scoped>
 
-body {
-  padding: 0;
-  margin: 0;
-}
+
 .contact {
   width: 100%;
   height: 100vh;
   margin: 0;
   padding: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +57,7 @@ body {
 }
 
 .contact__list {
-  width: 400px;
+  width: 300px;
   color: whitesmoke;
   font-family: 'Fira Sans', sans-serif;
   padding: 0;
