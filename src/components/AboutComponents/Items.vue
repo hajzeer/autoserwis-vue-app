@@ -31,7 +31,8 @@ export default {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 50%;
-        z-index: 99;
+        z-index: 1;
+        box-shadow: 0 10px 15px -8px rgba(0,0,0, .8);
         cursor: pointer;
         @media (min-width: 768px) {
             width: 25vw;
