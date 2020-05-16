@@ -55,9 +55,8 @@ export default {
       width: 300px;
       color: whitesmoke;
       font-family: 'Fira Sans', sans-serif;
-      padding: 0;
+      padding: 5px;
       font-size: 15px;
-      text-decoration-line: underline;
       letter-spacing: .5px;
       animation: visible .5s .5s ease-in;
       animation-fill-mode: forwards;
