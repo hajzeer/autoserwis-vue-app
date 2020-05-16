@@ -9,9 +9,11 @@
             <span class="hamburger__inner" />
         </span>
     </button>
-    <div v-if="isActive">
-      <RouterNav />
-    </div>
+      <transition name="slide-fade">
+      <div v-if="isActive">
+        <RouterNav />
+      </div>
+      </transition>
     </div>
 </template>
 
@@ -117,4 +119,14 @@ export default {
   background-color: rosybrown;
 }
 
+
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s
+}
+.slide-fade-enter, .slide-fade-leave-to {
+  opacity: 0;
+}
 </style>

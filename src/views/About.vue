@@ -83,6 +83,9 @@ export default {
   margin-top: 15%;
   padding: 30px;
   text-align: justify;
+  opacity: 0;
+  animation: visible .3s .5s ease-in;
+  animation-fill-mode: forwards;
 }
 
 @media (min-width: 1024px) {
@@ -93,14 +96,26 @@ export default {
 }
 
 .resoults {
+  opacity: 0;
   justify-items: center;
   margin-bottom: 20px;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
+  animation: visible .5s 1s ease-in;
+  animation-fill-mode: forwards;
   @media(min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@keyframes visible {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
   }
 }
 </style>

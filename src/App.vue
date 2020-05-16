@@ -35,7 +35,7 @@ export default {
 <style lang="scss">
 
   body {
-    background-color: lightgrey;
+    background-color: burlywood;
     margin: 0;
     padding: 0;
   }

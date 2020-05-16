@@ -57,6 +57,7 @@ export default {
 }
 
 .contact__list {
+  opacity: 0;
   width: 300px;
   color: whitesmoke;
   font-family: 'Fira Sans', sans-serif;
@@ -66,6 +67,8 @@ export default {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  animation: visible .3s .5s ease-in;
+  animation-fill-mode: forwards;
 
   li {
     margin-bottom: 20px;
@@ -98,4 +101,12 @@ export default {
     }
   }
 
+@keyframes visible {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
 </style>

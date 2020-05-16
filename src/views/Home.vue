@@ -46,6 +46,7 @@ export default {
     text-align: center;
 
     .service__name {
+      opacity: 0;
       width: 300px;
       color: whitesmoke;
       font-family: 'Fira Sans', sans-serif;
@@ -53,6 +54,8 @@ export default {
       font-size: 1em;
       text-decoration-line: underline;
       letter-spacing: .5px;
+      animation: visible .3s .5s ease-in;
+      animation-fill-mode: forwards;
     }
 
   }
@@ -77,4 +80,12 @@ export default {
       }
     }
   }
+  @keyframes visible {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
 </style>
