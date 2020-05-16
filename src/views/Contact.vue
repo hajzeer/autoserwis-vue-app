@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="contact">
     <HeroImageContact />
   <ul class="contact__list">
@@ -25,7 +26,16 @@
       </a>
     </li>
   </ul>
+    <div className="footer">
+      <p class="designer">
+        Polityka prywatności: <br/>
+        © 2020  Designed by Krzysztof Hajder
+        for Autoserwis Daniel Filocha <br/>
+        All rights reserved
+      </p>
+    </div>
   </div>
+</div>
 </template>
 
 <script>
@@ -100,6 +110,16 @@ export default {
       }
     }
   }
+
+.designer {
+  opacity: 0;
+  width: 300px;
+  color: whitesmoke;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 10px;
+  animation: visible .3s .5s ease-in;
+  animation-fill-mode: forwards;
+}
 
 @keyframes visible {
   from {
