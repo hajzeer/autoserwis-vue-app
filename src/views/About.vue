@@ -83,6 +83,8 @@ export default {
   margin-top: 15%;
   padding: 30px;
   text-align: justify;
+  font-size: 18px;
+  font-family: 'Fira Sans', sans-serif;
   opacity: 0;
   animation: visible .3s .5s ease-in;
   animation-fill-mode: forwards;
@@ -102,7 +104,7 @@ export default {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 15px;
   animation: visible .5s 1s ease-in;
   animation-fill-mode: forwards;
   @media(min-width: 768px) {
