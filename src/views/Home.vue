@@ -2,11 +2,16 @@
   <div class="home">
     <HeroImage />
     <div class="service">
+                      <router-link
+                    class="path"
+                    to="/about"
+                >
       <p class="service__name">BLACHARSTWO</p>
       <p class="service__name">LAKIERNICTWO</p>
       <p class="service__name">WYNIANA SZYB</p>
       <p class="service__name">NAPRAWA ZDERZAKÓW</p>
       <p class="service__name">NAPRAWA I KONSERWACJA PODWOZI</p>
+      </router-link>
     </div>
   </div>
 </template>
@@ -51,10 +56,10 @@ export default {
       color: whitesmoke;
       font-family: 'Fira Sans', sans-serif;
       padding: 0;
-      font-size: 1em;
+      font-size: 15px;
       text-decoration-line: underline;
       letter-spacing: .5px;
-      animation: visible .3s .5s ease-in;
+      animation: visible .5s .5s ease-in;
       animation-fill-mode: forwards;
     }
 
@@ -65,7 +70,7 @@ export default {
       margin-top: -20px;
         .service__name {
           width: 100%;
-          font-size: 1.5em;
+          font-size: 20px;
           letter-spacing: 1px;
         }
       }
@@ -75,7 +80,7 @@ export default {
     .service {
       margin-top: -20px;
       .service__name {
-        font-size: 2em;
+        font-size: 40px;
         letter-spacing: 2px;
       }
     }

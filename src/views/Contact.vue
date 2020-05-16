@@ -77,7 +77,7 @@ export default {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  animation: visible .3s .5s ease-in;
+  animation: visible .5s .5s ease-in;
   animation-fill-mode: forwards;
 
   li {
@@ -117,7 +117,7 @@ export default {
   color: whitesmoke;
   font-family: 'Fira Sans', sans-serif;
   font-size: 10px;
-  animation: visible .3s .5s ease-in;
+  animation: visible .5s .5s ease-in;
   animation-fill-mode: forwards;
 }
 

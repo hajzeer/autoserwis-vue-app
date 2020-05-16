@@ -124,7 +124,7 @@ export default {
   transition: all .3s ease;
 }
 .slide-fade-leave-active {
-  transition: all .8s
+  transition: all .6s
 }
 .slide-fade-enter, .slide-fade-leave-to {
   opacity: 0;

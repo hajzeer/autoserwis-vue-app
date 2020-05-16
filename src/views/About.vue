@@ -3,7 +3,7 @@
     <div class="short__info">
       <p>
       Jesteśmy prężnie rozwijającym się warsztatem w Katowiach.
-      Głównie zajmujemy się lakiernictwem, blacharstwem,
+      Zajmujemy się głównie lakiernictwem, blacharstwem,
       wymianą szyb, naprawą zderzaków oraz naprawą i konserwacją
       podwozi.
       Każdego dnia z pełną dokładnością staramy się sprostać
@@ -17,6 +17,14 @@
           :item="item"
           :key="item.id"
         />
+    </div>
+    <div class="contact">
+      <router-link
+        class="path"
+        to="/contact"
+      >
+        KONTAKT
+      </router-link>
     </div>
   </div>
 </template>
@@ -80,9 +88,8 @@ export default {
 <style lang="scss" scoped>
 
 .short__info {
+  padding: 20px;
   margin-top: 15%;
-  padding: 30px;
-  text-align: justify;
   font-size: 18px;
   font-family: 'Fira Sans', sans-serif;
   opacity: 0;
@@ -98,18 +105,27 @@ export default {
 }
 
 .resoults {
+  margin-top: 1em;;
   opacity: 0;
   justify-items: center;
   margin-bottom: 20px;
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 15px;
   animation: visible .5s 1s ease-in;
   animation-fill-mode: forwards;
   @media(min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+
+.contact {
+  opacity: 0;
+  padding: 30px;
+  text-align: center;
+  animation: visible .5s 1.5s ease-in;
+  animation-fill-mode: forwards;
 }
 
 @keyframes visible {
