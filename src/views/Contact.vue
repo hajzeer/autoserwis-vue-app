@@ -25,6 +25,11 @@
         (Napisz do Nas)
       </a>
     </li>
+    <li>
+      <a href="https://www.facebook.com/daniel.filocha.1">
+        Napisz do Nas na Facebooku
+      </a>
+    </li>
   </ul>
     <div className="footer">
       <p class="designer">
