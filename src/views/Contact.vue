@@ -30,6 +30,16 @@
         Napisz do Nas na Facebooku
       </a>
     </li>
+    <li>
+      Jesteśmy uczestnikiem Programu
+      <br/>
+      <span>RZETELNA</span> Firma
+      <br/>
+      Sprawdź naszą rzetelność na
+      <a href="https://www.rzetelnafirma.pl/ESD942OF">
+        https://www.rzetelnafirma.pl/ESD942OF
+      </a>
+    </li>
   </ul>
     <div className="footer">
       <p class="designer">
@@ -92,11 +102,16 @@ export default {
       text-decoration: none;
       color: whitesmoke;
     }
+    span {
+      color: red;
+      font-weight: bold;
+    }
   }
 }
 
  @media(min-width: 768px) {
     .contact__list {
+      width: 500px;
       margin-top: -20px;
         li {
           width: 100%;
